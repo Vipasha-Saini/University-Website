@@ -1,0 +1,711 @@
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+#form::before{
+    background: url('contact.jpg')center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 138%;
+    z-index: -1;
+    opacity: 0.6;
+    /* top: 0; */
+    /* left: 0; */
+}
+#form{
+    margin-bottom: 30rem;
+}
+
+.news-date1{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.read-all-news{
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.rector{
+    margin-top: 7.5rem;
+    margin-left: 7.5rem ;
+    font-size: 4.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.rector-below{
+    margin-left: 7.5rem ;
+    font-size: 2.0rem;
+}
+.num-email{
+    margin-left: 7.5rem ;
+    font-size: 2.0rem;
+
+
+}
+
+.form-item-top{
+    font-size: 2.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 7.5rem;
+}
+
+.form-item{
+    font-size: 2.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.input-style{
+    height: 5.0rem;
+    width: 60.0rem;
+    font-size: 2rem;
+}
+.input-style-message{
+    height: 12.5rem;
+    width: 60.0rem;
+    font-size: 2rem;
+
+}
+
+.form-send{
+    font-size: 1.9rem;
+}
+.form-margin{
+    
+    margin-bottom: 15.0rem;
+}
+
+#options::before{
+    background: url('monument.jpg')center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 64.8%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#options{
+    margin-bottom: 20rem;
+}
+
+.horizontal {
+     width:100%; border-bottom: 0.2rem solid rgba(128, 128, 128, 0.479); line-height:0.1em; margin:1.0rem 0 2.0rem;
+    } 
+.horizontal span { background:#fff;}
+
+
+
+.article-container {
+    width: 40.0rem;
+    height: 20.0rem;
+    border: 0.1rem solid #000000;
+    overflow: hidden;
+    position: relative;
+}
+
+.article-img-holder {
+    width: 100%;
+    height: 100%;
+    background: url('News.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.article-img-holder:hover {
+    transform: scale(1.2);
+    filter: brightness(50%);
+}
+
+
+
+.article-container1 {
+    width: 7.0rem;
+    height: 8.0rem;
+    border: 0.1rem solid #000000;
+    overflow: hidden;
+    position: relative;
+}
+
+.article-img-holder1 {
+    width: 100%;
+    height: 100%;
+    background: url('museum.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.article-img-holder1:hover {
+    transform: scale(1.2);
+    filter: brightness(50%);
+}
+
+
+.article-container2 {
+    width: 7.0rem;
+    height: 8.0rem;
+    border: .1rem solid #000000;
+    overflow: hidden;
+    position: relative;
+}
+
+.article-img-holder2 {
+    width: 100%;
+    height: 100%;
+    background: url('research.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 1s;
+}
+
+.article-img-holder2:hover {
+    transform: scale(1.2);
+    filter: brightness(50%);
+}
+
+#quicklinks::before{
+    background: url('computer-blue.jpg')center center/cover;
+    /* background: url('computer.jpg'), #6DB3F2; */
+    content: "";
+    position: absolute;
+    width: 32.5%;
+    /* height: auto; */
+    height: 59.4%;
+    z-index: -1;
+    opacity: 0.4;
+    /* top: 0; */
+    /* left: 0; */
+}
+
+.quicklinks-inner{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+#about::before{
+    background: url('university.jpg') center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 124.5%;
+    z-index: -1;
+
+}
+#about-text::before{
+    background-color: rgb(82, 141, 250);
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    z-index: -1;
+}
+
+.about-text{
+    font-size: 2.5rem;
+    margin: 1.0rem 5.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.university{
+    font-size: 4.1rem;
+    color: white;
+    margin-left: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+#about-text{
+    margin-left: 5.0rem;
+    margin-top: 1.0rem;
+}
+#about{
+    margin-bottom: 35.4rem;
+}
+#campus::before{
+    background: url('campus.jpg') center center/cover;
+    content: "";
+    position: absolute;
+    width: 50.8%;
+    height: 80%;
+    opacity: 0.8;
+    z-index: -1;
+    margin-left: -1.0rem;
+}
+
+
+#boy::before{
+    background: url('boy.jpg') center center/cover;
+    content: "";
+    position: absolute;
+    width: 49%;
+    height: 80%;
+    opacity: 0.6;
+    z-index: -1;
+}
+.boy-text{
+    margin-left: 6.0rem;
+    margin-top: 6.0rem;
+}
+.admission{
+    margin-bottom: 19.3rem;
+    
+}
+
+.logo1{
+    height: 6.0rem;
+    width: 6.0rem;
+    margin-left: 7.0rem;
+}
+.logo-text{
+    /* margin-left: 10px; */
+}
+#welcome::before{
+    background: url('welcome.jpg') center center/cover;
+    /* background-size: contain; */
+    /* background-size: 100% 100%; */
+
+
+    content: "";
+    position: absolute;
+    width: 100% ;
+    height: 100% ;
+    z-index: -1;
+    margin-left: -1.0rem;
+
+    /* background: url(background-photo.jpg) center center cover no-repeat fixed; */
+    /* display: block; */
+    /* max-width: 100%; */
+    /* height: auto; */
+    
+}
+.join{
+    margin-left: 5.0rem;
+}
+#welcome{
+    margin-bottom: 70.0rem;
+}
+.join-us{
+    font-size: 4.0rem;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10.0rem;
+}
+.uni-name{
+    font-size: 6.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+#nav-name{
+    margin-top: 10.0rem;
+}
+
+
+/* horizontal scroll  */
+
+div.scrollmenu {
+    background-color:rgba(103, 167, 241, 0.438);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 3.0rem 1.0rem;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 1.4rem;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    /* background-color:rgb(80, 149, 206); */
+    cursor: pointer;
+  }
+
+  #scroll1 img {
+      height: 15.0rem;
+      width: 15.0rem;
+  }
+  #scroll2 img {
+      height: 15.0rem;
+      width: 15.0rem;
+  }
+  #scroll3 img {
+      height: 15.0rem;
+      width: 15.0rem;
+  }
+  #scroll4 img {
+      height: 15.0rem;
+      /* width: 200px; */
+  }
+  #scroll5 img {
+      height: 15.0rem;
+      /* width: 150px; */
+  }
+  #scroll6 img {
+      height: 15.0rem;
+      /* width: 150px; */
+  }
+  #scroll7 img {
+      height: 15.0rem;
+      /* width: 150px; */
+  }
+  #scroll9 img {
+      height: 15.0rem;
+      /* width: 150px; */
+  }
+
+.color{
+    border: .1rem solid green;
+    opacity: 1;
+}
+.background{
+    background-color: rgb(25,25,25);
+}
+.font-color{
+    color: white;
+}
+.down-1{
+  font-size: 2rem;
+}
+.img-logo{
+    padding-right: 2.5rem;
+}
+.since-1991{
+    margin-left: 5.0rem;
+    margin-top: -1.0rem;
+    color: gray;
+    font-size: 2rem;
+}
+.connect{
+    margin-left: 27.5rem;
+    color: gray;
+    font-size: 1.5rem;
+}
+.icons{
+    margin-left: 27.5rem;
+    margin-top: -1.0rem;
+}
+.padding-right{
+    padding-right: .7rem;
+}
+.social-uni-name{
+    margin-left: 5.0rem;
+    color: gray;
+    font-size: 2rem;
+}
+.font{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3.0rem;
+}
+
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+
+  
+.dropdown-font{
+    font-size: 1.6rem;
+}
+
+.read-more{
+    font-size: 1.7rem;
+}
+.margin-option{
+    margin-top: 10rem;
+    /* border: 2px solid red; */
+}
+
+.uni-life{
+    font-size: 2.0rem;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+}
+
+.faculties{
+    font-size: 2rem;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* margin-left: 10rem; */
+}
+
+.simulation-center{
+    font-size: 2rem;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* margin-left: 3rem ; */
+}
+
+.faq{
+    font-size: 2rem;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* margin-left: 12rem; */
+}
+.library{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Navbar  */
+  @media (min-width: 1252px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-custom .navbar-nav .dropdown-menu{position:absolute}
+}
+
+
+
+
+
+/* @media only screen and (max-width: 1208px) and (min-width: 768px){
+    #welcome::before{
+        background: url('welcome.jpg') center center/cover;
+        content: "";
+        position: absolute;
+        width: 129.4% ;
+        height: 143% ;
+        z-index: -1;
+        margin-left: -1.0rem;
+
+}
+} */
+
+
+
+
+
+
+
+/* 
+@media only screen and (max-width:767px){
+    #welcome::before{
+        width: 105%;
+        height: 100;
+    }
+    .logo1{
+        margin-left: 10rem;
+    }
+}
+ */
+
+
+
+
+
+@media only screen and (max-width:840px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+
+
+
+/* 
+@media only screen and (min-width:340px){
+    #welcome::before{
+        width: 157.9%;
+        height: 138% ;
+    }
+    .uni-name{
+        font-size: 3.8rem;
+    }
+} */
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .logo1{
+        height: 10.0rem;
+        width: 10.0rem;
+        margin-left: 14.0rem;
+        margin-top: 20rem;
+    }
+    .uni-life{
+        margin-left: 6rem;
+        font-size: 4rem;
+    }
+    .read-more{
+        margin-left: 10rem;
+        font-size: 3rem;
+    }
+    
+    .faculties{
+        font-size: 4rem;
+        color: blue;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-left: 10rem;
+    }
+    .simulation-center{
+        font-size: 4rem;
+        color: blue;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-left: 3rem ;
+    }
+    .faq{
+        font-size: 4.0rem;
+        color: blue;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-left: 14rem;
+    }
+    #campus::before{
+       display: none;
+    }
+
+    #boy::before{
+        background: url('boy.jpg') center center/cover;
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        opacity: 0.6;
+        z-index: -1;
+        
+    }
+    .small-custom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #about-text::before{
+        width: 83%;
+        height: 160%;
+    }
+    #quicklinks::before{
+        width: 100%;
+        height: 46%;
+    }
+
+    .small-custom-1{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .option-center{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    #options::before{
+        height: 200%;
+        /* width: 200%; */
+    }
+    .library{
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-align: center;
+    }
+    #about::before{
+        height: 200%;
+
+    }
+    .input-style{
+        width: 38rem;
+    }
+    #form::before{
+        height: 150%;
+    }
+    .form-send{
+        width: 39rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-style-message{
+        width: 38rem;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .connect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}

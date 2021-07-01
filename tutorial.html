@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+<!-- 
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="uni-logo.jpg" alt="" width="60" height="60">
+            <p style="font-size: 1rem;">Yerevan Haybusak University</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" aria-current="page" href="#">Home</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Rector</a>
+                        <a class="dropdown-item" href="#">Founder</a>
+                        <a class="dropdown-item" href="#">University</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" href="#">YHU</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">University Council</a>
+                        <a class="dropdown-item" href="#">Chairs</a>
+                        <a class="dropdown-item" href="#">Invited Foreign Lecturers</a>
+                        <a class="dropdown-item" href="#">Ethics Committee</a>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown button
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+
+                        <a class="dropdown-item" href="#">Quality Assurance</a>
+
+                        <a class="dropdown-item" href="#">Career Center</a>
+                        <a class="dropdown-item" href="#">Psychological Center</a>
+                        <a class="dropdown-item" href="#">Legal Center</a>
+                        <a class="dropdown-item" href="#">Lesson Preparation Service</a>
+                        <a class="dropdown-item" href="#">High School</a>
+                        <a class="dropdown-item" href="#">College</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Applicant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-size: 3.0rem;">For Students</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Science</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">International</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">More</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+
+            </ul>
+            <form class="d-flex">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div> -->
+
+
+    <nav class="navbar navbar-expand-custom navbar-light bg-light fixed-top" id="main_navbar">
+        <div class="container-fluid my-3">
+            <a class="navbar-brand nav-img" href="#" style="font-size: 2rem;">
+                <img src="uni-logo.jpg" alt="" width="60" height="60">
+                Yerevan Haybusak University
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active nav-item" style="font-size: 1.8rem; font-family: 'Roboto', sans-serif;"
+                            href="#" role="button" data-bs-toggle="dropdown">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a class="dropdown-item dropdown-font" href="#">Rector</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Founder</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">University</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item hover-blue"
+                            style="font-size: 1.8rem; font-family: 'Roboto', sans-serif;" href="#" role="button"
+                            data-bs-toggle="dropdown">
+                            YHU
+                        </a>
+                        <ul class="dropdown-menu">
+
+
+                            <li><a class="dropdown-item dropdown-font" href="#">Structure</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">University Council</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Chairs</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Invited Foreign Lecturers</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Ethics Committee</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle dropdown-font" href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    Quality Assurance
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item dropdown-font" href="#">About Us</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Documents</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Trainings</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Events</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle dropdown-font" href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    Career Center
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item dropdown-font" href="#">CC Structure</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Documents</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">History</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Statistics</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Useful Materials</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Our Graduates</a></li>
+
+
+
+                                </ul>
+                            </li>
+                            <!-- <li><a class="dropdown-item" href="#">Quality Assurance</a></li> -->
+                            <!-- <li><a class="dropdown-item" href="#">Career Center</a></li> -->
+                            <li><a class="dropdown-item dropdown-font" href="#">Psychological Center</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Legal Center</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Lesson Preparation Service</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">High School</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">College</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item " style="font-size: 1.8rem; font-family: 'Roboto', sans-serif;"
+                            href="#" role="button" data-bs-toggle="dropdown">
+                            Applicant
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle dropdown-font" href="#" role="button"
+                                    data-bs-toggle="dropdown">
+                                    Institutes
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item dropdown-font" href="#">Institute of Medicine</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Institute of Economics, Management and
+                                            Informatics</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">Institute of Law and International
+                                            Relations</a></li>
+                                    <li><a class="dropdown-item dropdown-font" href="#">"Roslin” Academy of Arts and Humanities</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Fees</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Transfer</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item" href="#"
+                            style="font-size: 1.8rem; font-family: 'Roboto', sans-serif;" role="button"
+                            data-bs-toggle="dropdown">
+                            For Students
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item dropdown-font" href="#">Students Council</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Simulation Center</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item" style="font-size: 1.8rem; font-family: 'Roboto', sans-serif;"
+                            href="#" role="button" data-bs-toggle="dropdown">
+                            Science
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item dropdown-font" href="#">Students Scientific Society</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Scientific Life</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Scientific Council</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Scientific Journal</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Competitions</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item" style="font-size: 1.8rem; font-family: 'Roboto', sans-serif;"
+                            href="#" role="button" data-bs-toggle="dropdown">
+                            International
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item dropdown-font" href="#">International Collaboration</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Projects </a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Conferences</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Announcements</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item" style="font-size: 1.8rem; font-family: 'Roboto', sans-serif;"
+                            href="#" role="button" data-bs-toggle="dropdown">
+                            News
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-item" style="font-size: 1.8rem; font-family: 'Roboto', sans-serif;"
+                            href="#" role="button" data-bs-toggle="dropdown">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+
+                            <li><a class="dropdown-item dropdown-font" href="#">Regulations</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Licenses</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Cultural Department</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Library</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">GYM</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Gallery</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Video</a></li>
+                            <li><a class="dropdown-item dropdown-font" href="#">Hostel</a></li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" style="font-size: 1.5rem;" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" style="font-size: 1.5rem;">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12" id="welcome">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <div class="join mt-5">
+                            <p class="join-us">Join Us!</p>
+                            <p class="uni-name">Yerevan Haybusak University</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row mt-5 mb-5">
+            <div class="col-md-3 col-lg-3 small-custom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="university-life.png" alt="" class="logo1">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="uni-life">University Life</p>
+                        <p class="read-more">Read More ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 small-custom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="faculties.png" alt="" class="logo1">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="faculties">Faculties</p>
+                        <p class="read-more" >Read More ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 small-custom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="simulation.png" alt="" class="logo1">
+                    </div>
+                    <div class="col-md-6">
+                        <p class="simulation-center" >Simulation Center</p>
+                        <p class="read-more">Read More ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3 small-custom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="faq.png" alt="" class="logo1">
+                    </div>
+                    <div class="col-md-6 logo-text">
+                        <p class="faq" >F.A.Q.</p>
+                        <p class="read-more">Read More ...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row admission">
+            <div class="col-md-6" id="campus">
+            </div>
+            <div class="col-md-6" id="boy">
+                <div class="boy-text">
+                    <p style="font-size: 3.5rem; font-family: 'Roboto', sans-serif; font-weight: 500;">APPLY FOR ADMISSION
+                    </p>
+                    <p
+                        style="font-size: 2.7rem; color: rgb(6, 88, 6); font-family: 'Roboto', sans-serif; font-weight: 500;" class="boy-content">
+                        Fall 2020 applications are now open</p>
+                    <p style=" padding: 1.0rem; font-size: 2.0rem; font-family: 'Roboto', sans-serif; font-weight: 500;" class="boy-content">
+                        We don’t just give students an education and experiences that set them up for success in a
+                        career. We help them succeed in their career—to discover a field they’re passionate about and
+                        dare to lead it.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row no-gutters">
+
+            <div class="row no-gutters" id="about">
+                <div class="col-md-4">
+                    <p class="pt-5 university">About Our University</p>
+                </div>
+                <div class="col-md-7 pt-5" id="about-text">
+                    <p class="about-text">Today Yerevan «Haybusak» University is a unique internationally oriented
+                        educational scientific center that is widely known not only in Armenia but also in a number
+                        of foreign states.</p>
+                    <p class="about-text">
+                        Yerevan «Haybusak» University was one of the first ones that passed verification by the
+                        Quality of Education and received the state accreditation by all functioning specialties
+                        that was an evidence of high trust of the State and a guarantee of successful development of
+                        the University as «Haybusak» was entitled with the right to award state diplomas to its
+                        graduates. «Haybusak» was entitled with the right to award state diplomas to its graduates.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-md-8 pt-5 col-sm-12">
+                <p class="horizontal"><span class="font" style="color: blue;">News</span></p>
+                <p class="read-all-news" >Read All News</p>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class= "article-container">
+                            <div class="article-img-holder"></div>
+                        </div>
+                        <p class="news-date1" >22.05.2021</p>
+                        <p style="font-size: 2.0rem; font-family: 'Roboto', sans-serif; font-weight: 500;">“Roslin”
+                            Academy of Arts and Humanities’ exhibition</p>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <p class="news-date1">15.04.2021</p>
+                        <p style="font-size: 1.7rem; font-family: 'Roboto', sans-serif; font-weight: 500;">The class of
+                            “Haybusak” students L. A. Orbeli Institute of Physiology</p>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="article-container1">
+                                    <div class="article-img-holder1"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p
+                                    style="color: grey; font-size: 1.7rem; font-family: 'Roboto', sans-serif; font-weight: 500;">
+                                    20.01.2021</p>
+                                <p style="font-size: 1.7rem; font-family: 'Roboto', sans-serif; font-weight: 500;">Foreign
+                                    students’ visit to the History Museum of Yerevan</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="article-container2">
+                                    <div class="article-img-holder2"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p
+                                    style="color: grey; font-size: 1.7rem; font-family: 'Roboto', sans-serif; font-weight: 500;">
+                                    30.12.2020</p>
+                                <p style="font-size: 1.7rem; font-family: 'Roboto', sans-serif; font-weight: 500;">The
+                                    workshop on «Publishing Research Internationally: a Step by Step guide for
+                                    Armenian Researchers»</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12" id="quicklinks">
+                <p class="px-5 pt-5" style="font-size: 3.0rem; "><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                        height="30" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                        <path
+                            d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" />
+                        <path
+                            d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" />
+                    </svg>Quick Links</p>
+                <div class="px-5 quicklinks-inner">
+                    <p style="font-size: 2.0rem;color: green;">University</p>
+                    <hr>
+                    <p style="font-size: 2.0rem; color: green;">College</p>
+                    <hr>
+                    <p style="font-size: 2.0rem; color: green;">News</p>
+                    <hr>
+                    <p style="font-size: 2.0rem; color: green;">Licenses</p>
+                    <hr>
+                    <p style="font-size: 2.0rem; color: green;">Tuition and Fees</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="row" id="options">
+            <div class="col-md-3 col-sm-12 margin-option">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                    class="bi bi-book m-5 option-center" viewBox="0 0 16 16">
+                    <path
+                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                </svg>
+                <p class="mx-5 option-center library">Library</p>
+                <p class="mx-5 option-center library">Learn More ...</p>
+            </div>
+            <div class="col-md-3 col-sm-12 margin-option">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                    class="bi bi-building m-5 option-center" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                    <path
+                        d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+                </svg>
+                <p class="mx-5 option-center library">Postgraduate</p>
+                <p class="mx-5 option-center library">Learn More ...</p>
+            </div>
+            <div class="col-md-3 col-sm-12 margin-option">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                    class="bi bi-calendar2-week-fill m-5 option-center" viewBox="0 0 16 16">
+                    <path
+                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zm9.954 3H2.545c-.3 0-.545.224-.545.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5zM8.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm3 0a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM3 10.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z" />
+                </svg>
+                <p class="mx-5 library option-center">Schedule</p>
+                <p class="mx-5 library option-center">Learn More ...</p>
+            </div>
+            <div class="col-md-3 col-sm-12 margin-option">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                    class="bi bi-globe m-5 option-center" viewBox="0 0 16 16">
+                    <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                </svg>
+                <p class="mx-5 library option-center">Career Center</p>
+                <p class="mx-5 mb-5 library option-center">Learn More ...</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid my-5">
+        <div class="row" id="form" >
+            <div class="col-md-6">
+                <p class="rector">QUESTION TO THE RECTOR</p>
+
+                <p class="rector-below mb-4">If you have any questions, please do not hesitate to ask
+                    us.</p>
+                <p class="num-email">+91 9876543215 <svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                    </svg></p>
+
+                <p class="num-email">rector@haybusak.am <svg xmlns="http://www.w3.org/2000/svg"
+                        width="16" height="16" fill="currentColor" class="bi bi-envelope-open" viewBox="0 0 16 16">
+                        <path
+                            d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.818l5.724 3.465L8 8.917l1.276.766L15 6.218V5.4a1 1 0 0 0-.53-.882l-6-3.2zM15 7.388l-4.754 2.877L15 13.117v-5.73zm-.035 6.874L8 10.083l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738zM1 13.117l4.754-2.852L1 7.387v5.73zM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2z" />
+                    </svg> </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label form-item-top">Your
+                        Name(required)</label>
+                    <input type="text" class="form-control input-style" id="formGroupExampleInput">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label form-item">Your Email
+                        address(required)</label>
+                    <input type="email" class="form-control input-style" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label form-item">Your Mobile
+                        Number</label>
+                    <input type="text" class="form-control input-style" id="formGroupExampleInput2">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label form-item">Subject</label>
+                    <input type="text" class="form-control input-style" id="formGroupExampleInput2"
+                        >
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label form-item">Your
+                        Message</label>
+                    <textarea class="form-control input-style-message" id="exampleFormControlTextarea1"></textarea>
+                </div>
+                <button type="button" class="btn btn-success mb-3 form-send">Send</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="scrollmenu">
+        <a id="scroll1">
+            <img src="scroll-1.jpg" alt="">
+        </a>
+        <a id="scroll2">
+            <img src="scroll-2.jpg" alt="">
+        </a>
+        <a id="scroll3">
+            <img src="scroll-3.jpg" alt="">
+        </a>
+        <a id="scroll4">
+            <img src="scroll-4.png" alt=""></a>
+        <a id="scroll5">
+            <img src="scroll-5.png" alt="">
+        </a>
+        <a id="scroll6">
+            <img src="scroll-6.png" alt="">
+        </a>
+        <a id="scroll7">
+            <img src="scroll-7.png" alt="">
+        </a>
+        <a id="scroll9">
+            <img src="scroll-9.png" alt="">
+        </a>
+    </div>
+
+
+
+
+    <div class="container-fluid background py-5 px-5">
+        <div class="row font-color">
+            <div class="col-md-3 down-1">
+                <img src="uni-logo-bg.jpg" alt="" height="60" width="289" class="mb-5 img-logo">
+                <p>Address: 6 Abelyan Str., Yerevan</p>
+                <p>0038, Armenia</p>
+                <p>Tel. : +374 10390698</p>
+                <p>+374 10390236</p>
+                <p>E-mail:</p>
+                <p>info@haybusak.am</p>
+                <hr class="color">
+            </div>
+            <div class="col-md-3 down-1">
+                <p>YHU</p>
+                <hr class="color">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                Chairs
+                <hr>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                College
+                <hr>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                High School
+                <hr>
+            </div>
+            <div class="col-md-3 down-1">
+                <p>Applicant</p>
+                <hr class="color">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                Applicant
+                <hr>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                Institutes
+                <hr>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                Transfer
+                <hr>
+
+            </div>
+            <div class="col-md-3 down-1">
+                <p>For Students</p>
+                <hr class="color">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                Schedule
+                <hr>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                Students Council
+                <hr>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z">
+                    </path>
+                </svg>
+                Simulation Center
+                <hr>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row bg-dark">
+            <div class="col-md-4">
+                <p class="social-uni-name mt-4">© 2020 Yerevan «Haybusak» University</p>
+                <p class="since-1991 mb-4">Since 1991</p>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4 ">
+                <p class="connect mt-4 option-center">Connect With Us</p>
+                <div class="icons mb-4 option-center">
+                    <span class="padding-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path fill="#006622"
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </span>
+                    <span class="padding-right">
+                        <img src="google-plus-green.png" alt="" height="25" width="25">
+                    </span>
+                    <span class="padding-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path fill="#006622"
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                        </svg>
+                    </span>
+                    <span class="padding-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path fill="#006622"
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+        </script>
+    <script src="script.js"></script>
+    <script>
+        new bootnavbar();
+        // (function () {
+        // });
+    </script>
+</body>
+
+</html>
